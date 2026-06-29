@@ -1,0 +1,18 @@
+{
+  "reasoning_mode": "hybrid",
+  "llm": {
+    "provider": "ollama",
+    "model": "pygenesis-unity:latest",
+    "base_url": "http://127.0.0.1:11434/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "timeout_seconds": 120,
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "repeat_penalty": 1.18,
+    "use_json_response_format": false,
+    "max_tokens": 1024,
+    "chat_max_tokens": 2048,
+    "chat_max_history_messages": 24,
+    "chat_temperature": null
+  }
+}

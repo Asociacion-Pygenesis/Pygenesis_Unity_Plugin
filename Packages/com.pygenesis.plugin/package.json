@@ -1,0 +1,23 @@
+{
+  "name": "com.pygenesis.plugin",
+  "version": "0.1.0",
+  "displayName": "PyGenesis AI",
+  "description": "Asistente de IA en el editor Unity: análisis de escena, chat y generación de scripts C#.",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/Asociacion-Pygenesis/Pygenesis_Unity_Plugin/blob/main/docs/INSTALL.md",
+  "changelogUrl": "https://github.com/Asociacion-Pygenesis/Pygenesis_Unity_Plugin/releases",
+  "author": {
+    "name": "Asociación PyGenesis",
+    "url": "https://github.com/Asociacion-Pygenesis"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "assistant",
+    "unity",
+    "csharp"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "plugin": {
+    "id": "com.pygenesis.plugin",
+    "upm_path": "Packages/com.pygenesis.plugin"
+  },
+  "model": {
+    "repo_id": "SuNavar/Pygenesis-Unity",
+    "filename": "pygenesis-unity-q4km.gguf",
+    "revision": "main",
+    "hf_url": "https://huggingface.co/SuNavar/Pygenesis-Unity/blob/main/pygenesis-unity-q4km.gguf"
+  },
+  "llama_cpp": {
+    "release_url": "https://github.com/ggml-org/llama.cpp/releases",
+    "asset_pattern": "llama-*-bin-win-vulkan-x64.zip",
+    "note": "Descargar llama-bXXXX-bin-win-vulkan-x64.zip; copiar solo archivos listados en pygenesis_inference/bin/README.txt"
+  },
+  "runtime": {
+    "default_root": "%USERPROFILE%/.pygenesis",
+    "backend_port": 8765,
+    "bridge_public_port": 8081
+  }
+}
