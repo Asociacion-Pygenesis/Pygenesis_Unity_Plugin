@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Índice RAG local (Chroma)
+data/
+
+# Copia local del modelo (Gwen 3.5 u otro); no versionar
+PygenesisAI/

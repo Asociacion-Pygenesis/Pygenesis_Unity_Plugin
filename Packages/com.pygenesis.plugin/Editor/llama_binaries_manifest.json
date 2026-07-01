@@ -1,0 +1,40 @@
+{
+  "platform": "win-vulkan-x64",
+  "llama_build": "b9694",
+  "pygenesis_release": "0.2.0",
+  "github_repo": "Asociacion-Pygenesis/Pygenesis_Unity_Plugin",
+  "download": {
+    "url": "https://github.com/Asociacion-Pygenesis/Pygenesis_Unity_Plugin/releases/download/v0.2.0/pygenesis-llama-vulkan-win-x64-b9694.zip",
+    "sha256": "3bc417758aec27af40de70ba3e141d2864f26661ab2bb4af30ec69a9b07f6602"
+  },
+  "fallback": {
+    "url": "https://github.com/ggml-org/llama.cpp/releases/download/b9694/llama-b9694-bin-win-vulkan-x64.zip",
+    "note": "ZIP oficial; install_llama_binaries.ps1 extrae solo required_files"
+  },
+  "required_files": [
+    "llama-server.exe",
+    "llama-server-impl.dll",
+    "llama.dll",
+    "llama-common.dll",
+    "mtmd.dll",
+    "ggml.dll",
+    "ggml-base.dll",
+    "ggml-vulkan.dll",
+    "libomp140.x86_64.dll",
+    "ggml-cpu-alderlake.dll",
+    "ggml-cpu-cannonlake.dll",
+    "ggml-cpu-cascadelake.dll",
+    "ggml-cpu-cooperlake.dll",
+    "ggml-cpu-haswell.dll",
+    "ggml-cpu-icelake.dll",
+    "ggml-cpu-ivybridge.dll",
+    "ggml-cpu-piledriver.dll",
+    "ggml-cpu-sandybridge.dll",
+    "ggml-cpu-sapphirerapids.dll",
+    "ggml-cpu-skylakex.dll",
+    "ggml-cpu-sse42.dll",
+    "ggml-cpu-x64.dll",
+    "ggml-cpu-zen4.dll"
+  ],
+  "verify_command": ["--version"]
+}

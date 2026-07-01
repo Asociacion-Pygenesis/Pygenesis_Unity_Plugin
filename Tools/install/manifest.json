@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "plugin": {
+    "id": "com.pygenesis.plugin",
+    "upm_path": "Packages/com.pygenesis.plugin"
+  },
+  "model": {
+    "repo_id": "SuNavar/Pygenesis-Unity",
+    "filename": "pygenesis-unity-q4km.gguf",
+    "revision": "main",
+    "hf_url": "https://huggingface.co/SuNavar/Pygenesis-Unity/blob/main/pygenesis-unity-q4km.gguf"
+  },
+  "llama_cpp": {
+    "manifest": "llama_binaries_manifest.json",
+    "llama_build": "b9694",
+    "release_url": "https://github.com/Asociacion-Pygenesis/Pygenesis_Unity_Plugin/releases",
+    "prefiltered_zip": "pygenesis-llama-vulkan-win-x64-b9694.zip",
+    "note": "ZIP pre-filtrado en GitHub Releases PyGenesis; lista exacta en llama_binaries_manifest.json"
+  },
+  "runtime": {
+    "default_root": "%USERPROFILE%/.pygenesis",
+    "backend_port": 8765,
+    "bridge_public_port": 8081
+  }
+}

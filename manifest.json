@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "repository": "https://github.com/Asociacion-Pygenesis/Pygenesis_Unity_Plugin",
+  "plugin_upm_url": "https://github.com/Asociacion-Pygenesis/Pygenesis_Unity_Plugin.git?path=Packages/com.pygenesis.plugin",
+  "model": {
+    "repo_id": "SuNavar/Pygenesis-Unity",
+    "filename": "pygenesis-unity-q4km.gguf",
+    "hf_url": "https://huggingface.co/SuNavar/Pygenesis-Unity/blob/main/pygenesis-unity-q4km.gguf"
+  }
+}

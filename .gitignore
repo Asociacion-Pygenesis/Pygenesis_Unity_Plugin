@@ -1,0 +1,99 @@
+# Notas locales de prueba (no distribuir)
+preguntatipo.md
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+.vs/
+.gradle/
+.idea/
+
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+sysinfo.txt
+
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+crashlytics-build.properties
+
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Asset pack de terceros (no versionar)
+Assets/Toon Vehicles Free/
+Assets/Toon Vehicles Free.meta
+
+# Python / backend
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Copia local pesada del modelo (p. ej. Gwen 3.5) dentro del backend
+Tools/pygenesis_backend/PygenesisAI/
+
+# Secretos locales (cualquier carpeta)
+**/.env
+**/.env.local
+
+# Pesos GGUF locales (no versionar)
+*.gguf
+*.GGUF
+
+# Ollama: solo placeholder y README en models/
+Tools/ollama/models/*
+!Tools/ollama/models/.gitkeep
+!Tools/ollama/models/README.md
+
+# Puente inferencia: binarios llama.cpp, modelo local, artefactos generados
+Tools/pygenesis_inference/bin/*
+!Tools/pygenesis_inference/bin/README.txt
+Tools/pygenesis_inference/llama_vulkan/
+Tools/pygenesis_inference/llama-b9694-bin-win-vulkan-x64/
+Tools/pygenesis_inference/models/*
+!Tools/pygenesis_inference/models/.gitkeep
+Tools/pygenesis_inference/system_prompt.txt
+Tools/pygenesis_inference/ui_config.json
+
+# ZIP de release llama (generado por build_llama_release_zip.ps1)
+Tools/install/dist/
+
+# Model / HF caches (large)
+**/.cache/
+
+# PygenesisAI: pesos y tokenización pesada (descargar del modelo en Hugging Face; no caben en cuota GitLab)
+PygenesisAI/*.safetensors
+PygenesisAI/model.safetensors.index.json
+PygenesisAI/tokenizer.json
+PygenesisAI/vocab.json
+PygenesisAI/merges.txt
